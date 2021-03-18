@@ -39,7 +39,7 @@ class VetResource {
 
     private final VetRepository vetRepository;
     String user = "admin";
-    String password = "admin";
+    String password = "admin1234";
 
     @GetMapping
     public List<Vet> showResourcesVetList() {
