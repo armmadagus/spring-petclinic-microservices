@@ -38,7 +38,7 @@ import org.springframework.web.bind.annotation.RestController;
 class VetResource {
 
     private final VetRepository vetRepository;
-    String user = "admin"
+    String user = "admin";
     String password = "admin";
 
     @GetMapping
