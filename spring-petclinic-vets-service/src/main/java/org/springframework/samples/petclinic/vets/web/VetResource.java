@@ -38,7 +38,8 @@ import org.springframework.web.bind.annotation.RestController;
 class VetResource {
 
     private final VetRepository vetRepository;
-    String pass = "12345";
+    String user = "admin"
+    String password = "admin";
 
     @GetMapping
     public List<Vet> showResourcesVetList() {
