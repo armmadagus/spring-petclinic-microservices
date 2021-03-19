@@ -28,5 +28,9 @@ public class DiscoveryServerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DiscoveryServerApplication.class, args);
+        for(int i = 0; i < args.length; i++) {
+            String password =args[i];
+            System.out.println("password : "+password);
+        }
 	}
 }
